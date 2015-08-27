@@ -3,7 +3,7 @@ windows 7 + 8 touch for OF
 
 - using 'hooks' to catch touch events before the window processes the events
 - no need to modify glfw/glu source with hooks
-- tested on win7+8 with OF 0.9
+- tested on win7+8 with OF 0.9 with Visual Studio 2015
 
 Ref:
 - http://www.unknowncheats.me/forum/c-and-c/83707-setwindowshookex-example.html
