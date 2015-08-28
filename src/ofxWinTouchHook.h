@@ -1,5 +1,4 @@
 #pragma once
-
 #include "ofMain.h"
 
 /*
@@ -13,6 +12,10 @@ Ref:
 - http://stackoverflow.com/questions/19776866/c-global-hooking-why-setwindowshookex-return-null
 - http://stackoverflow.com/questions/21069643/is-it-possible-to-remove-touch-messages-wm-pointerdown-etc-that-an-applicatio
 */
+
+// toggle this to use only windows 8 wm_pointer events instead of wm_touch
+#define USE_WM_POINTER_EVENTS
+
 
 class ofxWinTouchHook {
 
